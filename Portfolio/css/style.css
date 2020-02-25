@@ -2,13 +2,13 @@
 
 /* Навигация */
 body{
-    font-family: 'Titillium Web', ;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 .li, a, button {
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: blanchedalmond;
@@ -60,7 +60,7 @@ button:hover {
 
 /* Витрина */
 .showcase{
-    background: url(/img/1.png) no-repeat center center;
+    background-image: url(../img/1.png);
     border-bottom:1px solid rgba(0, 136, 169, 1);
     margin-bottom: 30px;
 }
@@ -106,7 +106,7 @@ button:hover {
 .info{
    
     background:#333 url(../images/bg2.png)no-repeat;
-    color: #fff;
+    color: blanchedalmond;
     text-align:end;
 }
 .info h2{
@@ -128,7 +128,7 @@ button:hover {
 
 .company{
     background: #333;
-    color:#fff;
+    color:blanchedalmond;
     padding: 10px 0;
 }
 
@@ -148,7 +148,7 @@ button:hover {
 }
 .company button{
     background: #222;
-    color: #fff;
+    color: blanchedalmond;
     padding: 10px;
     border: 0;
 }
@@ -158,7 +158,7 @@ button:hover {
 
 .main-footer{
     background: rgba(0, 136, 169, 1);
-    color: #fff;
+    color: blanchedalmond;
 }
 
 
@@ -179,12 +179,12 @@ button:hover {
 
 .services ul li:nth-child(odd){
     background: #333;
-    color: #fff;
+    color:blanchedalmond;
 }
 
 .services ul li:nth-child(even){
-    background: #56a79a;
-    color: #fff;
+    background: rgba(0, 136, 169, 1);
+    color:blanchedalmond;
 }
 
 
@@ -193,7 +193,7 @@ button:hover {
 
 .contact form{
     background:#333 ;
-    color: #fff;
+    color: blanchedalmond;
     padding: 20px;
 }
 .contact form input[type="text"]{
@@ -210,7 +210,7 @@ button:hover {
     padding: 10px 0;
     border: 0;
     background: #222;
-    color:#fff
+    color:blanchedalmond;
 
 }
 .contact form label{
